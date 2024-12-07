@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f0f5;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+    color: #333333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #007acc, #005fa3);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .logo img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar .menu-icon {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+    color: #f9c74f;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(to bottom, #004d8b, #007acc);
+    color: #fff;
+}
+
+.hero-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 1.6;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.hero-buttons .btn {
+    background: #007acc;
+    color: white;
+}
+
+.hero-buttons .btn.secondary {
+    background: white;
+    color: #007acc;
+    border: 2px solid #007acc;
+}
+
+.hero-buttons .btn:hover {
+    opacity: 0.9;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 3rem [_{{{CITATION{{{_1{](https://github.com/watchping/vue-course/tree/6a60dc019287a13859793f1ec7fef84dc41aa2b9/temp.md)[_{{{CITATION{{{_2{](https://github.com/ringkubd/portofolio_codeigniter/tree/d1cc93c845986894c68a94dd82cca52df9edae21/application%2Fviews%2Fportofolio%2Finc%2Fheader.php)[_{{{CITATION{{{_3{](https://github.com/piere90/mylaravelcrm/tree/8a6e663cf6aef5137dbe3663c13638a414dddd00/progettouno%2Fresources%2Fviews%2Ftemplates%2Fmaster_home.blade.php)[_{{{CITATION{{{_4{](https://github.com/nahian91/kirki-customizer-theme-development/tree/c5575aeca5e6e5595c3b2f351d6d8a2c137fbd62/index.php)[_{{{CITATION{{{_5{](https://github.com/sarahtariqjilani1234/fypTawakal-o-sukoon.github.io/tree/ad4ec64c8ce76d3f6b02d90608b5fe3d89807303/index.php)
